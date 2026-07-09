@@ -1,0 +1,8 @@
+# Local kernel build artifacts — built on first use from int4_gemm.hip via hipcc.
+*.dll
+*.so
+*.pyd
+*.dylib
+*.lib
+__pycache__/
+*.pyc

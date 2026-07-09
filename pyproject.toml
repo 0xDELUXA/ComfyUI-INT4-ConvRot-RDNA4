@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-int4-convrot-rdna4"
+description = "Native int4 ConvRot-W4A4 quantization for ComfyUI on AMD RDNA4 (gfx12). Convert, save and load int4 diffusion models; HIP kernel compiled from source on first use."
+version = "1.0.0"
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+Repository = "https://github.com/0xDELUXA/ComfyUI-INT4-ConvRot-RDNA4"
+
+[tool.comfy]
+PublisherId = "0xDELUXA"
+DisplayName = "INT4 ConvRot (AMD RDNA4)"
